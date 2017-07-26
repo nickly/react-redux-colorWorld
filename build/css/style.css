@@ -1,0 +1,3236 @@
+﻿@charset "UTF-8";
+.csj_titleNav, .csj_lotteryFunctionChoose .lfc_content a, .csj_bottomKj span, .csj_bottomKj span.csj_clock01, .csj_bottomKj span.miu, .csj_secondNav li a, .csj_referralP_left i, .csj_table td, .csj_table2 td, .csj_table2 td span, .csj_table3 td, .csj_table4 td {
+  white-space: nowrap;
+  /*是禁止换行；*/
+  overflow: hidden;
+  /*多出的内容隐藏；*/
+  text-overflow: ellipsis;
+  /*多出的内容以省略号...来表达；主要用于IE等浏览器*/
+  -o-text-overflow: ellipsis;
+  /*支持chrome；*/ }
+
+.csj_referenceBlock .rb_table td, .csj_historyKaiJiang .hkj_table td {
+  white-space: nowrap; }
+
+\534E\6587\7EC6\9ED1
+.csj_lotteryPeriod, \534E\6587\7EC6\9ED1
+.csj_toolTipBox .ttb_title, .csj_toolTipBox \534E\6587\7EC6\9ED1
+.ttb_title, \534E\6587\7EC6\9ED1
+.csj_toolTipBox .ttb_submit, .csj_toolTipBox \534E\6587\7EC6\9ED1
+.ttb_submit, \534E\6587\7EC6\9ED1
+.csj_lotteryFunctionChoose .lfc_content, .csj_lotteryFunctionChoose \534E\6587\7EC6\9ED1
+.lfc_content, \534E\6587\7EC6\9ED1
+.csj_iconList, \534E\6587\7EC6\9ED1
+.csj_videoListBlock, \534E\6587\7EC6\9ED1
+.csj_bottomKj, \534E\6587\7EC6\9ED1
+.csj_secondNav, \534E\6587\7EC6\9ED1
+.csj_navSecondBlock, \534E\6587\7EC6\9ED1
+.csj_information_icon, \534E\6587\7EC6\9ED1
+.csj_table10, \534E\6587\7EC6\9ED1
+.csj_submit, \534E\6587\7EC6\9ED1
+.hkj_tool .tool_title, .hkj_tool \534E\6587\7EC6\9ED1
+.tool_title, \534E\6587\7EC6\9ED1
+.csj_LotteryNumbers .csj_Numbers table .csj_AlwaysOpen .csj_AlwaysOpenSpan, .csj_LotteryNumbers .csj_Numbers table .csj_AlwaysOpen \534E\6587\7EC6\9ED1
+.csj_AlwaysOpenSpan, \534E\6587\7EC6\9ED1
+.csj_tabNavBar, \534E\6587\7EC6\9ED1
+.csj_sjConS .csj_lisSpan, .csj_sjConS \534E\6587\7EC6\9ED1
+.csj_lisSpan {
+  height: 1%;
+  display: block; }
+
+.csj_lotteryPeriod:after, .csj_toolTipBox .ttb_title:after, .csj_toolTipBox .ttb_submit:after, .csj_lotteryFunctionChoose .lfc_content:after, .csj_iconList:after, .csj_videoListBlock:after, .csj_bottomKj:after, .csj_secondNav:after, .csj_navSecondBlock:after, .csj_information_icon:after, .csj_table10:after, .csj_submit:after, .hkj_tool .tool_title:after, .csj_LotteryNumbers .csj_Numbers table .csj_AlwaysOpen .csj_AlwaysOpenSpan:after, .csj_tabNavBar:after, .csj_sjConS .csj_lisSpan:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.public_DebugRed {
+  min-height: 20px !important;
+  background-color: red !important; }
+
+.public_DebugYellow {
+  min-height: 20px !important;
+  background-color: yellow !important; }
+
+.public_DebugBlue {
+  height: 20px !important;
+  background-color: blue !important; }
+
+.public_DebugOrange {
+  min-height: 20px !important;
+  background-color: orange !important; }
+
+.public_AddFloatLeft {
+  /*float: left;*/ 
+}
+
+.public_addPositionRelative {
+  position: relative; }
+
+.public_AddFloatRight {
+  float: right; }
+
+.public_Clear_Fix {
+  height: 1%;
+  display: block; }
+
+.public_Clear_Fix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.public_Clear_DIsplyInlineBlock {
+  font-size: 0;
+  letter-spacing: -4px;
+  word-spacing: -4px; }
+  .public_Clear_DIsplyInlineBlock .public_DIsplyInlineBlock {
+    font-size: 12px;
+    font-size: 1.2rem;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal; }
+
+/**************************图片(start)********************************/
+.csj_hide{
+   visibility: hidden;
+}
+.csj_logo {
+  background: url("../images/csj_logo.png") no-repeat left center; }
+
+.csj_pcIcon {
+  background: url("../images/csj_pcIcon.png") no-repeat left center; }
+
+.csj_rightEdit, .csj_fanhui {
+  background: url("../images/csj_editIcon.png") no-repeat left center; }
+
+.csj_navBlock {
+  background: url("../images/csj_noticeIcon.png") no-repeat 5px center; }
+
+.csj_navList ul li a.csj_navIcon01 {
+  background: url("../images/csj_navIcon01.png") no-repeat center 15px; }
+
+.csj_navList ul li a.csj_navIcon02 {
+  background: url("../images/csj_navIcon02.png") no-repeat center 12px; }
+
+.csj_navList ul li a.csj_navIcon03 {
+  background: url("../images/csj_navIcon03.png") no-repeat center 13px; }
+
+.csj_navList ul li a.csj_navIcon04 {
+  background: url("../images/csj_navIcon04.png") no-repeat center 12px; }
+
+.csj_navList ul li a.csj_navIcon05 {
+  background: url("../images/csj_navIcon05.png") no-repeat center 12px; }
+
+.csj_navTitle .csj_navTitleIcon {
+  background: url("../images/csj_titleIcon01.png") no-repeat 5px center; }
+
+.csj_navTitle .csj_navTitleIcon_num {
+  background: url("../images/csj_titleIcon02.png") no-repeat 5px center; }
+
+.csj_footer_link_icon a.icon1 {
+  background: url("../images/csj_footerIcon1.png") no-repeat left center; }
+
+.csj_footer_link_icon a.icon2 {
+  background: url("../images/csj_footerIcon2.png") no-repeat left center; }
+
+.csj_footer_link_icon a.icon3 {
+  background: url("../images/csj_footerIcon3.png") no-repeat left center; }
+
+.csj_navback {
+  background: url("../images/csj_backButton.png") no-repeat center center; }
+
+.csj_videoListBlock li .csj_videoMesh {
+  background: url("../images/web_mesh.png"); }
+
+.csj_playButton {
+  background: url("../images/csj_videoPlayer.png") no-repeat center center; }
+
+.csj_bottomKj span.csj_clock01 i {
+  background: url("../images/csj_clock.png") no-repeat left center; }
+
+.csj_startPlayer .csj_bottomKj span.csj_clock01 i {
+  background: url("../images/csj_clock2.png") no-repeat left center; }
+
+.csj_xJtouButton {
+  background: url("../images/csj_xJtou.png") no-repeat center; }
+
+.csj_information_icon i.csj_timeIcon1, .csj_informationcontentcen_time span {
+  background: url("../images/csj_clock3.png") no-repeat left center; }
+
+.csj_information_icon i.csj_numberIcon1 {
+  background: url("../images/csj_clock5.png") no-repeat left center; }
+
+.csj_rightShareButton {
+  background: url("../images/csj_shareButton.png") no-repeat center; }
+
+.csj_buttonRight {
+  background: url("../images/csj_zbButton.png") no-repeat 0 0; }
+
+.csj_table06 {
+  background: url("../images/csj_dengpao.png") no-repeat; }
+
+.csj_table07 .csj_rightBlock i.num1, .csj_table4 td i.num1 {
+  background: url("../images/lotteryNumber_pk10.png") no-repeat;
+  background-position: 0 0px;
+  background-size: 14px; }
+
+.csj_table07 .csj_rightBlock i.num2, .csj_table4 td i.num2 {
+  background: url("../images/lotteryNumber_pk10.png") no-repeat;
+  background-position: 0 -14px;
+  background-size: 14px; }
+
+.csj_table07 .csj_rightBlock i.num3, .csj_table4 td i.num3 {
+  background: url("../images/lotteryNumber_pk10.png") no-repeat;
+  background-position: 0 -28px;
+  background-size: 14px; }
+
+.csj_table07 .csj_rightBlock i.num4, .csj_table4 td i.num4 {
+  background: url("../images/lotteryNumber_pk10.png") no-repeat;
+  background-position: 0 -42px;
+  background-size: 14px; }
+
+.csj_table07 .csj_rightBlock i.num5, .csj_table4 td i.num5 {
+  background: url("../images/lotteryNumber_pk10.png") no-repeat;
+  background-position: 0 -56px;
+  background-size: 14px; }
+
+.csj_table07 .csj_rightBlock i.num6, .csj_table4 td i.num6 {
+  background: url("../images/lotteryNumber_pk10.png") no-repeat;
+  background-position: 0 -70px;
+  background-size: 14px; }
+
+.csj_table07 .csj_rightBlock i.num7, .csj_table4 td i.num7 {
+  background: url("../images/lotteryNumber_pk10.png") no-repeat;
+  background-position: 0 -84px;
+  background-size: 14px; }
+
+.csj_table07 .csj_rightBlock i.num8, .csj_table4 td i.num8 {
+  background: url("../images/lotteryNumber_pk10.png") no-repeat;
+  background-position: 0 -98px;
+  background-size: 14px; }
+
+.csj_table07 .csj_rightBlock i.num9, .csj_table4 td i.num9 {
+  background: url("../images/lotteryNumber_pk10.png") no-repeat;
+  background-position: 0 -112px;
+  background-size: 14px; }
+
+.csj_table07 .csj_rightBlock i.num10, .csj_table4 td i.num10 {
+  background: url("../images/lotteryNumber_pk10.png") no-repeat;
+  background-position: 0 -126px;
+  background-size: 14px; }
+
+.csj_table4 td i.redBallnum1 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: 0px 0px;
+  background-size: 54px; }
+
+.csj_table4 td i.redBallnum2 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: 0px -18px;
+  background-size: 54px; }
+
+.csj_table4 td i.redBallnum3 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: 0px -36px;
+  background-size: 54px; }
+
+.csj_table4 td i.redBallnum4 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: 0px -54px;
+  background-size: 54px; }
+
+.csj_table4 td i.redBallnum5 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: 0px -72px;
+  background-size: 54px; }
+
+.csj_table4 td i.redBallnum6 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: 0px -90px;
+  background-size: 54px; }
+
+.csj_table4 td i.redBallnum7 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: 0px -108px;
+  background-size: 54px; }
+
+.csj_table4 td i.redBallnum8 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: 0px -126px;
+  background-size: 54px; }
+
+.csj_table4 td i.redBallnum9 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: 0px -144px;
+  background-size: 54px; }
+
+.csj_table4 td i.redBallnum10 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: 0px -162px;
+  background-size: 54px; }
+
+.csj_table4 td i.redBallnum0 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: 0px -180px;
+  background-size: 54px; }
+
+.csj_table4 td i.redBallnum11 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: 0px -198px;
+  background-size: 54px; }
+
+.csj_table4 td i.orangeBallnum1 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -18px 0px;
+  background-size: 54px; }
+
+.csj_table4 td i.orangeBallnum2 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -18px -18px;
+  background-size: 54px; }
+
+.csj_table4 td i.orangeBallnum3 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -18px -36px;
+  background-size: 54px; }
+
+.csj_table4 td i.orangeBallnum4 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -18px -54px;
+  background-size: 54px; }
+
+.csj_table4 td i.orangeBallnum5 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -18px -72px;
+  background-size: 54px; }
+
+.csj_table4 td i.orangeBallnum6 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -18px -90px;
+  background-size: 54px; }
+
+.csj_table4 td i.orangeBallnum7 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -18px -108px;
+  background-size: 54px; }
+
+.csj_table4 td i.orangeBallnum8 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -18px -126px;
+  background-size: 54px; }
+
+.csj_table4 td i.orangeBallnum9 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -18px -144px;
+  background-size: 54px; }
+
+.csj_table4 td i.orangeBallnum10 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -18px -162px;
+  background-size: 54px; }
+
+.csj_table4 td i.orangeBallnum0 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -18px -180px;
+  background-size: 54px; }
+
+.csj_table4 td i.orangeBallnum11 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -18px -198px;
+  background-size: 54px; }
+
+.csj_table4 td i.blueBallnum1 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -36px 0px;
+  background-size: 54px; }
+
+.csj_table4 td i.blueBallnum2 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -36px -18px;
+  background-size: 54px; }
+
+.csj_table4 td i.blueBallnum3 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -36px -36px;
+  background-size: 54px; }
+
+.csj_table4 td i.blueBallnum4 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -36px -54px;
+  background-size: 54px; }
+
+.csj_table4 td i.blueBallnum5 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -36px -72px;
+  background-size: 54px; }
+
+.csj_table4 td i.blueBallnum6 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -36px -90px;
+  background-size: 54px; }
+
+.csj_table4 td i.blueBallnum7 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -36px -108px;
+  background-size: 54px; }
+
+.csj_table4 td i.blueBallnum8 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -36px -126px;
+  background-size: 54px; }
+
+.csj_table4 td i.blueBallnum9 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -36px -144px;
+  background-size: 54px; }
+
+.csj_table4 td i.blueBallnum10 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -36px -162px;
+  background-size: 54px; }
+
+.csj_table4 td i.blueBallnum0 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -36px -180px;
+  background-size: 54px; }
+
+.csj_table4 td i.blueBallnum11 {
+  background: url("../images/csj_ballImage.png") no-repeat;
+  background-position: -36px -198px;
+  background-size: 54px; }
+
+.csj_toolTipBox .ttb_title span.ttb_help {
+  background: url("../images/csj_helpIcon.png") no-repeat; }
+
+.csj_toolTipBox .ttb_title .ttb_close {
+  background: url("../images/csj_closeIcon.png") no-repeat; }
+
+.csj_helpConS span {
+  background: url("../images/csj_point.png") no-repeat; }
+
+
+
+.csj_titleNav_xjt {
+  background: url("../images/csj_titleXjt.png") no-repeat right center; }
+
+.csj_titleNav_xjt.hover {
+  background: url("../images/csj_titleXjt2.png") no-repeat right center; }
+
+.csj_table10 .csj_rightHelpIcon {
+  background: url("../images/csj_helpIcon2.png") no-repeat; }
+
+.csj_stopPlayer .csj_bottomKj span.csj_clock01 i {
+  background: url("../images/csj_clock4.png") no-repeat left center; }
+
+.csj_stopPlayer .csj_playButton {
+  background: url("../images/csj_mesk30.png"); }
+
+/*sally*/
+.diceNumber i {
+  background: url("../images/jsk3_ball.png") no-repeat 0 0; }
+
+.csj_explain {
+  background: url("../images/csj_explain.png") no-repeat 0 0; }
+
+.ln_cqsscBg {
+  background: url("../images/ln_cqsscBg.png") no-repeat center; }
+
+.hkj_tool .tool_fadeToggle a {
+  background: url("../images/tool_fadeToggle.png") no-repeat 0 0; }
+
+.hkj_tool .tool_title a {
+  background: url("../images/csj_IconReset.png") no-repeat left center; }
+
+.hkj_tool .tool_li span.hover {
+  background: url("../images/tool_liBg.png") #fff no-repeat right bottom; }
+
+.lotteryNumber_pk10 i.num01, .lotteryNumber_pk10 i.num02, .lotteryNumber_pk10 i.num03, .lotteryNumber_pk10 i.num04, .lotteryNumber_pk10 i.num05, .lotteryNumber_pk10 i.num06, .lotteryNumber_pk10 i.num07, .lotteryNumber_pk10 i.num08, .lotteryNumber_pk10 i.num09, .lotteryNumber_pk10 i.num10 {
+  background: url("../images/lotteryNumber_pk10.png") no-repeat 0 0; }
+
+.csj_lotteryFunctionChoose .lfc_title span.csj_lfcIcon {
+  background: url("../images/csj_lfcIcon1.png") no-repeat left center; }
+
+.csj_lotteryFunctionChoose .lfc_title span.csj_lfcIcon2 {
+  background: url("../images/csj_lfcIcon2.png") no-repeat left center; }
+
+/*sisi*/
+.csj_lotteryPeriod .lp_time {
+  background: url('../images/date.png') no-repeat center; }
+
+.csj_lotteryPeriod .lp_time:active {
+  background: url('../images/date_bg.png') no-repeat center; }
+
+.csj_lotteryPeriod .lp_direct .dir_sp:active {
+  background: url('../images/zhibo_01.png') no-repeat left center; }
+
+.csj_lotteryPeriod .lp_direct .dir_sp {
+  background: url('../images/zhibo.png') no-repeat left center; }
+
+.csj_lotteryPeriod .lp_help {
+  background: url('../images/help.png') no-repeat center; }
+
+.csj_lotteryPeriod .lp_help:active {
+  background: url('../images/help_01.png') no-repeat center; }
+
+.cum_explain span {
+  background: url('../images/explain_bg.png') no-repeat left top; }
+
+.csj_lotteryPeriod .lp_set {
+  background: url('../images/shezhi.png') no-repeat center; }
+
+.csj_lotteryPeriod .lp_set:active {
+  background: url('../images/shezhi_01.png') no-repeat center; }
+
+.csj_lotteryPeriod .lp_video {
+  background: url('../images/lp_video.png') no-repeat center; }
+
+.csj_LotteryNumbers .csj_Numbers table .nu_td03 span {
+  background: url('../images/kaijiang.png') no-repeat center; }
+
+.csj_tabNavBar .esj_rightSound {
+  background: url("../images/csj_openSound1.png") no-repeat right center; }
+
+.csj_tabNavBar .esj_rightSound.closeSound {
+  background: url("../images/csj_openSound2.png") no-repeat right center; }
+
+.csj_moreButton {
+  background: url("../images/csj_rightJtou.png") no-repeat right center; }
+
+.csj_toolTipBox .ttb_title .ttb_close {
+  background: url("../images/csj_closeIcon.png") no-repeat left center; }
+
+.csj_toolTipBox .ttb_title span.ttb_set {
+  background: url("../images/csj_sjIcon.png") no-repeat left center; }
+
+.csj_toolTipBox .ttb_title span.ttb_help {
+  background: url("../images/csj_helpIcon.png") no-repeat left center; }
+
+/**************************图片(end)********************************/
+html {
+  font-size: 12px; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  margin: 0; }
+
+h1, h2, h3, h4, h5 {
+  font-size: 12px;
+  font-weight: normal; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block; }
+
+li {
+  display: block; }
+
+i {
+  font-style: normal;
+  display: inline-block; }
+
+p {
+  margin: 0;
+  padding: 0;
+  display: block; }
+
+img {
+  border: 0px;
+  display: inline-block; }
+
+a {
+  text-decoration: none; }
+
+a, input {
+  outline: none;
+  border: none;
+  padding: 0px; }
+
+span {
+  display: inline-block; }
+
+table {
+  border-collapse: collapse;
+  border: 0px; }
+
+button {
+  outline: none;
+  border: 0px; }
+
+body {
+  font-family: 'STHeiti', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #333; }
+
+/**************************公共-头部(start)********************************/
+
+.csj_header {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99; }
+
+.scroll_body{
+   width: 100%;
+}
+
+.csj_redNav {
+  width: 100%;
+  height: 37px;
+  background-color: #ed1c24;
+  position: relative; }
+
+.csj_navback {
+  width: 50px;
+  height: 37px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-size: 10px; }
+
+.csj_titleNav {
+  width: 100%;
+  height: 37px;
+  padding-right: 30px;
+  line-height: 37px;
+  padding-left: 50px;
+  font-size: 14px;
+  color: #fff;
+  box-sizing: border-box; }
+
+.csj_titleNav_xjt {
+  padding-right: 20px;
+  background-size: 13px; }
+  .csj_titleNav_xjt.hover {
+    background-size: 13px; }
+
+.csj_rightEdit {
+  padding-left: 22.5px;
+  height: 37px;
+  line-height: 37px;
+  background-size: 17px;
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  top: 0px; }
+
+/*开奖信息*/
+.csj_lotteryPeriod {
+  padding: 3px 10px;
+  text-align: center;
+  background: #fffbe3;
+  /*border-top: 1px solid #d9d9d9;*/
+}
+  .csj_lotteryPeriod .lp_time {
+    display: block;
+    float: left;
+    padding-top: 1px;
+    width: 36px;
+    height: 22px;
+    line-height: 22px;
+    box-sizing: border-box;
+    background-size: 36px;
+    font-size: 12px;
+    color: #f3a401;
+    margin-right: 8px; }
+    .csj_lotteryPeriod .lp_time:active {
+      background-size: 36px;
+      color: #fff; }
+  .csj_lotteryPeriod .lp_select {
+    display: block;
+    float: left;
+    padding: 1px 5px 0 0; }
+  .csj_lotteryPeriod .lp__text {
+    float: left;
+    display: block;
+    font-size: 12px;
+    line-height: 22px; }
+  .csj_lotteryPeriod .lp_result {
+    float: left;
+    display: block;
+    line-height: 22px;
+    font-size: 16px;
+    color: #ffac00; }
+  .csj_lotteryPeriod .lp_direct {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 19px;
+    line-height: 19px;
+    margin: 1px 8px;
+    border: 1px solid #ed1c24;
+    background-color: #ed1c24;
+    border-radius: 2px;
+}
+    .csj_lotteryPeriod .lp_direct:active {
+      background: #ffac00; }
+    .csj_lotteryPeriod .lp_direct .dir_sp {
+      display: inline-block;
+    background-size: 5.5px;
+    font-size: 13px;
+    color: #ffffff;
+    padding-left: 9px;
+ }
+      .csj_lotteryPeriod .lp_direct .dir_sp:active {
+        background-size: 5.5px;
+        color: #fff; }
+  .csj_lotteryPeriod .lp_video {
+    display: block;
+    float: left;
+    width: 18px;
+    height: 22px;
+    margin-left: 10px;
+    background-size: 18px; }
+  .csj_lotteryPeriod .lp_help {
+    display: block;
+    float: right;
+    width: 18px;
+    height: 22px;
+    background-size: 18px; }
+    .csj_lotteryPeriod .lp_help:active {
+      background-size: 18px; }
+  .csj_lotteryPeriod .lp_set {
+    display: block;
+    float: right;
+    width: 18px;
+    height: 22px;
+    background-size: 18px;
+    margin-right: 8px; }
+    .csj_lotteryPeriod .lp_set:active {
+      background-size: 18px; }
+  .csj_lotteryPeriod .lp_checkbox {
+    display: block;
+    float: right;
+    margin-right: 10px; }
+    .csj_lotteryPeriod .lp_checkbox span {
+      float: left;
+      line-height: 22px; }
+      .csj_lotteryPeriod .lp_checkbox span.cb_input {
+        padding-top: 5px;
+        line-height: 0px; }
+
+/*遮罩层*/
+.csj_maskLayer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: #000;
+  z-index: 999;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5; 
+  display:none;
+}
+
+/*提示弹窗*/
+.csj_toolTipBox {
+  width: 95%;
+  background-color: #fff;
+  margin-left: 2.5%;
+  z-index: 1000;
+  border-radius: 6px;
+  position: fixed;
+  top: 50%;
+  display:none;
+}
+  .csj_toolTipBox .ttb_title {
+    height: 40px;
+    background-color: #ed1c24;
+    border-radius: 6px 6px 0 0;
+    padding: 0 10px 0 15px; }
+    .csj_toolTipBox .ttb_title span {
+      float: left;
+      display: inline-block;
+      line-height: 40px;
+      padding-left: 22px;
+      font-size: 13px;
+      color: #fff; }
+      .csj_toolTipBox .ttb_title span.ttb_help {
+        background-size: 17px; }
+      .csj_toolTipBox .ttb_title span.ttb_set {
+        background-size: 17px; }
+    .csj_toolTipBox .ttb_title .ttb_close {
+      float: right;
+      display: block;
+      width: 16px;
+      height: 40px;
+      background-size: 12px; }
+  .csj_toolTipBox .ttb_content {
+    padding: 5px 18px 20px;
+    line-height: 24px;
+    font-size: 12px; }
+  .csj_toolTipBox .ttb_submit {
+    border-top: 1px solid #e3e3e3;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border-radius: 0 0 3px 3px;
+    text-align: center; 
+  }
+    .csj_toolTipBox .ttb_submit span {
+      width: 50%;
+      display: block;
+      box-sizing: border-box;
+      float: left;
+      cursor: pointer; }
+    .csj_toolTipBox .ttb_submit span:first-child {
+      border-right: 1px solid #e3e3e3; }
+
+/**************************公共-头部(end)********************************/
+/**************************公共-头部(start)********************************/
+.csj_lotteryFunctionChoose {
+  position: fixed;
+  top: 38px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 999;
+  display: none;
+  border-top: 1px solid #dbdbdb;
+  box-sizing: border-box; }
+
+.csj_lotteryFunctionChoose_show{
+   display: block;
+}
+  .csj_lotteryFunctionChoose .lfc_title {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    color: #333;
+    font-size: 0px; }
+    .csj_lotteryFunctionChoose .lfc_title span {
+      display: inline-block;
+      padding-left: 20px;
+      font-size: 15px; }
+      .csj_lotteryFunctionChoose .lfc_title span.csj_lfcIcon {
+        background-size: 16px; }
+      .csj_lotteryFunctionChoose .lfc_title span.csj_lfcIcon2 {
+        background-size: 16px; }
+  .csj_lotteryFunctionChoose .lfc_content {
+    border-left: 1px solid #dbdbdb; }
+    .csj_lotteryFunctionChoose .lfc_content a {
+      float: left;
+      display: block;
+      width: 33.3%;
+      height: 28px;
+      line-height: 28px;
+      text-align: center;
+      border-right: 1px solid #dbdbdb;
+      border-bottom: 1px solid #dbdbdb;
+      box-sizing: border-box;
+      font-size: 14px;
+      color: #333; }
+      .csj_lotteryFunctionChoose .lfc_content a:active, .csj_lotteryFunctionChoose .lfc_content a.hover {
+        color: #fff;
+        background: #ed1c24; }
+  .csj_lotteryFunctionChoose .csj_lfcTable2 th {
+    border-top: 0px; }
+
+/**************************公共-头部(end)********************************/
+.csj_webContent {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  margin: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 0; }
+
+.csj_scrollerBlock {
+  width: 100%;
+  overflow-y: scroll;
+  position: absolute;
+  top: 130.5px;
+  bottom: 0px;
+  margin: 0px;
+  z-index: 0; 
+  -webkit-overflow-scrolling:touch;
+}
+
+.swiper-newsImg {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative; }
+  .swiper-newsImg .swiper-slide {
+    position: relative; }
+  .swiper-newsImg .swiper-pagination-bullets {
+    bottom: 30px; }
+  .swiper-newsImg .swiper-pagination-bullet {
+    background-color: #fff;
+    border: 1px solid #000;
+    opacity: 1;
+    margin: 4px auto; }
+  .swiper-newsImg .swiper-pagination-bullet-active {
+    background-color: #eb2525; }
+
+.csj_headerTop {
+  width: 100%;
+  height: 42px;
+  background-color: #ed1c24; }
+
+.csj_logo {
+  width: 129px;
+  height: 42px;
+  background-size: 125px;
+  position: absolute;
+  left: 10px;
+  top: 0; }
+
+.csj_rightButton {
+  width: auto;
+  height: 42px;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  color: #fff;
+  font-weight: normal; }
+
+.csj_rightButton span{
+  margin-left: 10px;
+}
+  .csj_rightButton i {
+    padding: 0 5px; }
+
+.csj_pcIcon {
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-size: 15px;
+  height: 42px;
+  line-height: 42px;
+  color: #fff; }
+
+.csj_pcIcon a {
+  color: #fff;
+  font-size: 12px; }
+
+.csj_fanhui {
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-size: 15px;
+  height: 42px;
+  line-height: 42px;
+  color: #fff; }
+
+.csj_fanhui a {
+  color: #fff;
+  font-size: 12px; }
+.csj_header a:visited,.csj_header a:link {
+  color:#fff!important;
+  }
+
+.csj_navBlock {
+  width: 100%;
+  height: 21px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #f1f1f1;
+  padding-right: 10px;
+  padding-left: 22px;
+  box-sizing: border-box;
+  background-size: 12px;
+  overflow: hidden; 
+  
+}
+.marquee
+{
+  position: absolute;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  /*-webkit-animation: marquee 6s linear infinite;
+  -moz-animation: marquee 6s linear infinite;
+  -ms-animation: marquee 6s linear infinite;
+  -o-animation: marquee 6s linear infinite;
+  animation: marquee 6s linear infinite;*/
+}
+@-webkit-keyframes marquee {
+    0% { left: 100%; }
+    100% { left: 6%; }
+}
+@-moz-keyframes marquee {
+     0% { left: 100%; }
+    100% { left: 6%; }
+}
+@-ms-keyframes marquee {
+     0% { left: 100%; }
+    100% { left: 6%; }
+}
+@-o-keyframes marquee {
+     0% { left: 100%; }
+    100% { left: 6%; }
+}
+@keyframes marquee {
+   0% { left: 100%; }
+    100% { left: 6%; }
+}
+
+.csj_navList {
+  width: 100%;
+  height: 67.5px;
+  background-color: #fff; }
+  .csj_navList ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -o-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: box;
+    display: -webkit-flexbox;
+    display: -o-flexbox;
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: flexbox;
+    display: -webkit-flex;
+    display: -o-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -o-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-box-pack: justify;
+    box-pack: justify;
+    -webkit-flex-pack: justify;
+    -o-flex-pack: justify;
+    -moz-flex-pack: justify;
+    -ms-flex-pack: justify;
+    flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -o-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between; }
+    .csj_navList ul li {
+      -webkit-box-flex: 1;
+      -o-box-flex: 1;
+      -moz-box-flex: 1;
+      -ms-box-flex: 1;
+      box-flex: 1;
+      -wekit-flex: 1;
+      -o-flex: 1;
+      -moz-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      width: 20%;
+      text-align: center;
+      height: 67.5px; }
+      .csj_navList ul li a {
+        display: block;
+        width: 100%;
+        height: 67.5px;
+        padding-top: 45px;
+        box-sizing: border-box;
+        font-size:12px;
+        color: #333;
+        text-decoration: none; }
+      .csj_navList ul li a:visited {
+        color: #333; }
+        .csj_navList ul li a.csj_navIcon01 {
+          background-size: 30px; }
+        .csj_navList ul li a.csj_navIcon02 {
+          background-size: 26px; }
+        .csj_navList ul li a.csj_navIcon03 {
+          background-size: 24px; }
+        .csj_navList ul li a.csj_navIcon04 {
+          background-size: 25px; }
+        .csj_navList ul li a.csj_navIcon05 {
+
+          background-size: 28px; }
+           .csj_navList ul li a.csj_navIcon05, .csj_navList ul li a.csj_navIcon05:visited, .csj_navList ul li a.csj_navIcon05:link {
+              color:#333 !important;
+            }
+
+.csj_index {
+  top: 63px; }
+
+.swiper-banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative; }
+  .swiper-banner .swiper-slide {
+    width: 100%; }
+    .swiper-banner .swiper-slide img {
+      width: 100%;
+      display: block; }
+  .swiper-banner .swiper-page .swiper-pagination-bullet {
+    opacity: 0.5; }
+  .swiper-banner .swiper-page .swiper-pagination-bullet-active {
+    opacity: 1;
+    background-color: #ed1c24; }
+
+.csj_navTitle {
+  width: 100%;
+  height: 37px;
+  border-bottom: 1px solid #e2e2e2; }
+  .csj_navTitle .csj_navTitleIcon {
+    padding-left: 30px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 17px;
+    background-size: 19px; }
+    .csj_navTitle .csj_navTitleIcon i {
+      font-size: 13px;
+      color: #999;
+      padding-left: 8px; }
+
+.csj_iconList {
+  width: 100%;
+  padding: 0 5px;
+  box-sizing: border-box;
+  height: auto; }
+  .csj_iconList li.lis {
+    width: 25%;
+    display: block;
+    float: left;
+    height: 85px; }
+    .csj_iconList li.lis a {
+      width: 100%;
+      height: 85px;
+      display: block;
+      text-align: center;
+      padding-top: 10px;
+      box-sizing: border-box;
+      color: #333;
+      text-decoration: none; }
+      .csj_iconList li.lis a .image {
+        width: 45px;
+        height: 45px;
+        border-radius: 45px;
+        overflow: hidden;
+        background-color: #dedede;
+        display: inline-block; }
+      .csj_iconList li.lis a img {
+        width: 45px;
+        display: inline-block; }
+      .csj_iconList li.lis a .font {
+        width: 100%;
+        display: block;
+        font-size: 12px;
+        padding: 0 5px;
+        box-sizing: border-box; }
+      .csj_iconList li.lis a .close {
+        width: 100%;
+        height: 20px;
+        display: block;
+        text-align: center;
+        position: relative; }
+        .csj_iconList li.lis a .close i {
+          position: absolute;
+          left: 50%;
+          margin-left: -29px;
+          top: -5px;
+          width: 58px;
+          display: block;
+          box-sizing: border-box;
+          border-radius: 4px;
+          background-color: #ed1c24;
+          font-size: 16px;
+          color: #fff;
+          text-align: center;
+          -moz-transform: scale(0.5);
+          -webkit-transform: scale(0.5);
+          -o-transform: scale(0.5);
+          -ms-transform: scale(0.5);
+          transform: scale(0.5); }
+
+.csj_footer {
+  width: 100%;
+  height: 104px;
+  background-color: #f0f0f0; }
+  .csj_footer .csj_footer_link {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 5px; }
+    .csj_footer .csj_footer_link a {
+      font-size: 13px;
+      display: inline-block;
+      color: #555555;
+      text-decoration: none;
+      padding: 0 8px; }
+      .csj_footer .csj_footer_link a:active {
+        color: #999999; }
+    .csj_footer .csj_footer_link i {
+      padding: 0px 5px;
+      font-size: 13px;
+      display: inline-block;}
+
+.csj_footer_link_icon {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-top: 5px; }
+  .csj_footer_link_icon a ,.csj_footer_link_icon a:link ,.csj_footer_link_icon a:visited{
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    padding-left: 21px;
+    color: #555 !important;
+    margin: 0px 10px; 
+    
+  }
+  
+    .csj_footer_link_icon a.icon1 {
+       
+      background-size: 16px; }
+    .csj_footer_link_icon a.icon2 {
+       
+      background-size: 19px; }
+    .csj_footer_link_icon a.icon3 {
+       
+      background-size: 16px; }
+
+.csj_footer_bq {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  color: #555;
+  padding-top: 5px; }
+  .csj_footer_bq a{
+    color: #666;
+    padding: 0px 5px;
+  }
+
+.csj_videoList {
+  top: 37px; }
+
+.csj_videoListBlock {
+  width: 100%;
+  padding: 10px 3px;
+  box-sizing: border-box;
+  height: auto; }
+  .csj_videoListBlock li {
+    width: 50%;
+    display: block;
+    float: left;
+    padding: 0 7px;
+    box-sizing: border-box;
+    padding-bottom: 10px; }
+    .csj_videoListBlock li a {
+      width: 100%;
+      display: block;
+      display: block;
+      position: relative;
+      color: #fff;
+      text-decoration: none; }
+    .csj_videoListBlock li img {
+      width: 100%;
+      display: block;
+      border-radius: 4px 4px 0 0; }
+    .csj_videoListBlock li .csj_videoMesh {
+      width: 100%;
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      text-align: center;
+      position: absolute;
+      bottom: 0px;
+      left: 0px; }
+
+.csj_playButton {
+  width: 100%;
+  height: 32.5px;
+  top: 50%;
+  margin-top: -22.5px;
+  background-size: 32.5px;
+  position: absolute; }
+
+.csj_bottomKj {
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  height: 16px;
+  overflow:hidden;
+  line-height: 16px;
+  background-color: #fffbe3;
+  border-radius: 0 0 4px 4px; }
+  .csj_bottomKj span {
+    float: left;
+    display: block;
+    font-size: 8px; }
+    .csj_bottomKj span.csj_clock01 {
+      width: 65%;
+      box-sizing: border-box; }
+      .csj_bottomKj span.csj_clock01 i {
+        padding-left: 15px;
+        background-size: 10px;
+        display: block; 
+        font-size:11px;
+      }
+    .csj_bottomKj span.miu {
+      float: right;
+      font-size: 8px;
+      color: #ed1c24;
+      font-size:11px;
+    }
+
+.csj_startPlayer .csj_bottomKj {
+  background-color: #ed1c24;
+  text-align: center; }
+  .csj_startPlayer .csj_bottomKj span.csj_clock01 {
+    width: 100%;
+    color: #fff;
+    padding-left: 0px; }
+    .csj_startPlayer .csj_bottomKj span.csj_clock01 i {
+      background-size: 11px;
+      display: inline;
+      padding-left: 15px;
+      font-size:11px;
+    }
+
+.csj_stopPlayer .csj_playButton {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 22px;
+  left: 0px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 100%;
+  vertical-align: middle;
+  border-radius: 3px 3px 0 0;
+  display: block; }
+  .csj_stopPlayer .csj_playButton i {
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    display: block;
+    margin-top: -12.5px; }
+.csj_stopPlayer .csj_bottomKj {
+  background-color: #e8e8e8;
+  text-align: left; }
+  .csj_stopPlayer .csj_bottomKj span.csj_clock01 {
+    width: 100%;
+    color: #333333;
+    padding-left: 0px; }
+    .csj_stopPlayer .csj_bottomKj span.csj_clock01 i {
+      background-size: 11px;
+      display: inline;
+      padding-left: 15px; 
+      font-size:11px;
+    }
+
+.csj_secondNav {
+  width: 100%;
+  box-sizing: border-box;
+  height: 33px;
+  position: relative;
+  overflow: hidden; }
+  .csj_secondNav li {
+    width: 32%;
+    height: 32.5px;
+    float: left;
+    line-height: 32.5px; }
+    .csj_secondNav li a {
+      width: 100%;
+      height: 32.5px;
+      line-height: 32.5px;
+      text-decoration: none;
+      color: #333;
+      display: block;
+      position: relative;
+      padding-left: 20px;
+      box-sizing: border-box; }
+      .csj_secondNav li a.hover {
+        color: #ed1c24!important;
+        text-decoration: none; }
+    .csj_secondNav li i {
+      width: 18px;
+      height: 18px;
+      border-radius: 18px;
+      background-color: #dedede;
+      display: block;
+      position: absolute;
+      left: 0px;
+      top: 7px; }
+      .csj_secondNav li i img {
+        width: 18px;
+        height: 18px;
+        border-radius: 18px;
+        display: block; }
+
+.csj_xJtouButton {
+  width: 20px;
+  height: 15px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  background-size: 10px; }
+
+.csj_navSecondBlock {
+  width: 100%;
+  background-color: #f7f7f7;
+  height: 33px;
+  overflow: hidden;
+  padding: 0 10px 0 10px;
+  box-sizing: border-box;
+  font-size:12px;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2); }
+
+    .csj_navSecondBlock a:visited,.csj_navSecondBlock a:link{
+         color: #333!important;
+    }
+
+.csj_informationList {
+  top: 71px; }
+
+.openButton {
+  height: auto;
+  overflow: inherit; }
+  .openButton .csj_xJtouButton {
+    top: inherit;
+    bottom: 10px;
+    transform: rotate(180deg); }
+  .openButton .csj_navSecondBlock {
+    height: auto; }
+
+.csj_informationList_block {
+  width: 100%; }
+  .csj_informationList_block li {
+    width: 100%;
+    height: 84.5px;
+    border-bottom: 1px solid #d9d9d9; }
+    .csj_informationList_block li:last-child {
+      border-bottom: 0px; }
+    .csj_informationList_block li a {
+      width: 100%;
+      height: 84.5px;
+      display: block;
+      padding-left: 120px;
+      box-sizing: border-box;
+      position: relative;
+      color: #333;
+      text-decoration: none; }
+      .csj_informationList_block li a .csj_imageLeft {
+        width: 99.5px;
+        height: 66.5px;
+        left: 10px;
+        top: 10px;
+        position: absolute;
+        display: block;
+        background-color: #dedede; }
+        .csj_informationList_block li a .csj_imageLeft img {
+          width: 99.5px;
+          height: 66.5px;
+          display: block;
+        }
+      .csj_informationList_block li a .csj_lisCons {
+        width: 100%;
+        display: block;
+        padding-right: 10px;
+        box-sizing: border-box; }
+      .csj_informationList_block li a .csj_titleBlock {
+        font-size: 14px;
+        padding-top: 8px;
+        word-break: break-all;
+        display: -webkit-box;
+        display: -o-box;
+        display: -moz-box;
+        display: box;
+        -webkit-line-clamp: 2;
+        -moz-line-clamp: 2;
+        -o-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -o-box-orient: vertical;
+        overflow: hidden;
+        line-height: 22px; }
+
+.csj_information_icon {
+  width: 100%;
+  display: block;
+  height: auto;
+  padding-top: 4px; }
+  .csj_information_icon i {
+    padding-left: 15px;
+    display: block;
+    font-size: 13px;
+    color: #919191;
+    float: left;
+    line-height: 19px;
+    padding-right: 10px; }
+  .csj_information_icon i.csj_timeIcon1 {
+    background-size: 11px; }
+  .csj_information_icon i.csj_numberIcon1 {
+    background-size: 14px;
+    padding-left: 20px; }
+
+.csj_rightXiangQing .csj_rightEdit {
+  right: 35px; }
+.csj_rightXiangQing .csj_titleNav {
+  padding-right: 85px; }
+
+.csj_rightShareButton {
+  width: 17px;
+  height: 17px;
+  background-size: 17px;
+  position: absolute;
+  right: 10px;
+  top: 10px; }
+
+.csj_informationContentList {
+  top: 38px; }
+
+.csj_informationContentCen {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box; }
+
+.csj_informationContentCen_text {
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  line-height: 23px; }
+
+.csj_informationcontentcen_time {
+  width: 100%;
+  display: block;
+  text-align: right;
+  line-height: 15px;
+  padding-top: 4px;
+  font-size: 12px; }
+  .csj_informationcontentcen_time span {
+    background-size: 12px;
+    padding-left: 17.5px;
+    color: #919191; }
+
+.csj_information_textContent {
+  width: 100%;
+  display: block;
+  padding: 8px 0 10px;
+  font-size: 12px;
+  color: #666;
+  line-height: 19px; }
+  .csj_information_textContent img {
+    max-width: 100%;
+    min-height: 50%;
+    max-height: 100%;
+    display: block;
+    margin: 0px auto; }
+
+.csj_referralProgramTop {
+  top: 38px; }
+
+.csj_coldHotNumberAnalyze {
+  top: 67px; }
+
+.csj_referralProgramTable {
+  width: 100%; }
+
+.csj_table01 {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  background-color: #fffbe3;
+  border-bottom: 1px solid #f2dcaf;
+  color: #333;
+  line-height: 30px;
+  text-align: center; }
+
+.csj_table02 {
+  width: 100%;
+  height: 46px;
+  background-color: #fffbe3;
+  border-bottom: 1px solid #e3e3e3;
+  position: relative; }
+
+.csj_referralP_left {
+  width: 100px;
+  height: 46px;
+  padding-left: 15px;
+  position: absolute;
+  left: 0px;
+  top: 0px; }
+  .csj_referralP_left i {
+    width: 100%;
+    display: block; }
+  .csj_referralP_left .csj_redFos {
+    font-size: 12px;
+    color: #ed1c24;
+    padding-top: 6px;
+    padding-bottom: 6px; }
+
+.csj_centerTimer {
+  width: 100%;
+  padding-left: 79px;
+  box-sizing: border-box;
+  padding-top: 6px;
+  padding-right: 10px;
+  text-align: center; }
+  .csj_centerTimer .csj_timeBlock {
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    background-color: #ff9c00;
+    border-radius: 6px;
+    font-size: 21px;
+    line-height: 33px;
+    text-align: center;
+    color: #fff; }
+  .csj_centerTimer .csj_startTimeBlock {
+    background-color: #ed1c24; }
+  .csj_centerTimer .csj_fem {
+    width: 18px;
+    height: 33px;
+    display: inline-block;
+    color: #333;
+    font-size: 9px;
+    text-align: center;
+    line-height: 33px; }
+
+.csj_rightZbtn {
+  width: 55px;
+  position: absolute;
+  top: 0px;
+  right: -5px;
+  padding-top: 14px;
+  box-sizing: border-box; }
+
+.csj_buttonRight {
+  width: 45px;
+  height: 19px;
+  background-size: 45px; }
+
+.csj_table03 {
+  width: 100%;
+  height: 29px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e3e3e3;
+  text-align: center;
+  line-height: 29px; }
+
+.csj_table04 {
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid #e3e3e3;
+  background-color: #fff;
+  box-sizing: border-box;
+  line-height: 35px;
+  text-align: center;
+  font-size: 0px; }
+  .csj_table04 span {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px; }
+    .csj_table04 span i {
+      color: #ed1c24; }
+.csj_table04_1 {
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid #e3e3e3;
+  background-color: #fff;
+  box-sizing: border-box;
+  line-height: 35px;
+  text-align: center;
+  font-size: 0px; }
+  .csj_table04_1 span {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 8px;
+    margin-right: 0px; }
+    .csj_table04_1 span i {
+      color: #ed1c24; }
+
+.csj_table05 {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ffffff; }
+
+.csj_table06 {
+  width: 100%;
+  padding: 5px 15px 5px 22.5px;
+  box-sizing: border-box;
+  background-color: #fffbe3;
+  border-bottom: 1px solid #e3e3e3;
+  background-size: 15px;
+  background-position: 5px 6px; }
+  .csj_table06 a {
+    color: #0096ff; }
+
+.csj_table07 {
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  left: 0px;
+  top: 0px; }
+  .csj_table07 .csj_leftBlock {
+    width: 77px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    font-size: 13px;
+    text-align: right; }
+  .csj_table07 .csj_rightBlock {
+    width: 100%;
+    height: 35px;
+    padding-left: 82px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    font-size: 0px; }
+    .csj_table07 .csj_rightBlock .lispan {
+      width: 10%;
+      display: inline-block;
+      text-align: center; }
+    .csj_table07 .csj_rightBlock i {
+      width: 14px;
+      height: 14px;
+      display: inline-block;
+      margin: 0 auto;
+      margin-top: 10px; }
+
+.csj_table08 {
+  width: 100%; }
+
+.csj_table {
+  width: 100%; }
+  .csj_table td {
+    padding: 0px 5px;
+    height: 32.5px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    width: 33.3%; }
+    .csj_table td:nth-child(3n) {
+      border-right: 0px; }
+    .csj_table td.csj_tdRedFont {
+      color: #ed1c24; }
+
+.csj_table2 {
+  width: 100%; }
+  .csj_table2 td {
+    padding: 0px 5px;
+    height: 37px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    width: 20%;
+    background-color: #f5f5f5; }
+    .csj_table2 td i {
+      display: inline; }
+    .csj_table2 td span {
+      width: 100%;
+      display: block; }
+    .csj_table2 td:nth-child(5n) {
+      border-right: 0px; }
+  .csj_table2 tr.title td {
+    height: 30px; }
+  .csj_table2 tr:nth-child(2n) td {
+    background-color: #fff; }
+
+.csj_tdRedFont {
+  color: #ed1c24; }
+
+.csj_tdGreenFont {
+  color: #1e9000; }
+
+.csj_table09 {
+  width: 100%;
+  display: block; }
+
+.csj_table3 {
+  width: 100%; }
+  .csj_table3 td {
+    padding: 0px 5px;
+    height: 52px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-align: center;
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    background-color: #f5f5f5; }
+    .csj_table3 td span {
+      display: inline; }
+    .csj_table3 td i {
+      display: inline; }
+    .csj_table3 td:nth-child(4n) {
+      border-right: 0px; }
+  .csj_table3 td.csj_numList {
+    white-space: normal;
+    font-size: 12px; }
+  .csj_table3 tr.title td {
+    height: 30px; }
+  .csj_table3 tr:nth-child(2n) td {
+    background-color: #fff; }
+
+.csj_nextPlay {
+  padding-top: 15px; }
+
+/*推荐计划提示弹窗框*/
+.csj_helpConS {
+  width: 100%;
+  overflow-y: scroll;
+  height: 210px; }
+  .csj_helpConS span {
+    text-indent: 12px;
+    background-position: left 5px;
+    padding-bottom: 10px; }
+
+.csj_table10 {
+  width: 100%;
+  border-bottom: 1px  solid  #e3e3e3;
+  box-sizing: border-box;
+  background-color: #fffbe3;
+  height: 30px;
+  line-height: 30px; }
+  .csj_table10 .csj_leftb01 {
+    padding-left: 10px;
+    float: left; }
+  .csj_table10 .csj_leftb02 {
+    font-size: 17px;
+    color: #ffac00;
+    float: left; }
+  .csj_table10 .addPaddingTop01 {
+    float: left;
+    margin: 5px 0 0 10px; }
+  .csj_table10 .csj_rightHelpIcon {
+    width: 18px;
+    height: 18px;
+    background-size: 18px;
+    position: absolute;
+    right: 10px;
+    top: 6px; }
+
+.csj_table11 {
+  width: 100%; }
+
+.csj_table4 {
+  width: 100%; }
+  .csj_table4 td {
+    height: 44px;
+    padding: 0px 5px 5px;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    background-color: #f5f5f5; }
+    .csj_table4 td.titleName {
+      vertical-align: middle;
+      font-size: 13px; }
+    .csj_table4 td div.numberList1 {
+      width: 100%;
+      font-size: 0px;
+      white-space: normal;
+      text-align: left; }
+      .csj_table4 td div.numberList1 span.number {
+        width: 33.3%;
+        display: inline-block;
+        text-align: center; }
+    .csj_table4 td div.numberList2 {
+      width: 100%;
+      font-size: 0px;
+      white-space: normal;
+      text-align: left; }
+      .csj_table4 td div.numberList2 span.number {
+        width: 25%;
+        display: inline-block;
+        text-align: center; }
+    .csj_table4 td i {
+      width: 18px;
+      height: 18px;
+      display: inline-block;
+      margin: 0 auto;
+      margin-top: 5px; }
+        .csj_table4 td i.pk10height {
+      width: 14px;
+      height: 14px;
+       }
+
+    .csj_table4 td:nth-child(4n) {
+      border-right: 0px; }
+  .csj_table4 td.csj_numList {
+    white-space: normal;
+    font-size: 13px; }
+  .csj_table4 tr.title td {
+    padding: 0;
+    height: 27px;
+    vertical-align: middle;
+    font-size: 13px; }
+  .csj_table4 tr:nth-child(2n) td {
+    background-color: #fff; }
+
+.csj_submit {
+  width: 100%;
+  font-size: 14px;
+  border-top: 1px solid #ededed;
+  text-align: center;
+  height: 40px;
+  line-height: 40px; }
+  .csj_submit span {
+    width: 50%;
+    display: block;
+    float: left;
+    text-align: center;
+    box-sizing: border-box; }
+    .csj_submit span:first-child {
+      border-right: 1px solid #ededed; }
+    .csj_submit span:last-child {
+      border-right: 0px; }
+
+/*彩种号码字体颜色*/
+.fontColor6f8a97 {
+  color: #6f8a97; }
+
+.fontColorFF3700 {
+  color: #ff3700; }
+
+.fontColor1700FF {
+  color: #1700FF; }
+
+.fontColor278000 {
+  color: #278000; }
+
+.fontColorDB760F {
+  color: #db760f; }
+
+.fontColor5200fe {
+  color: #5200fe; }
+
+.fontColor2d92c2 {
+  color: #2d92c2; }
+
+.fontColor760 {
+  color: #760000; }
+
+.fontColorA76a2A {
+  color: #a76a2a; }
+
+.fontColor4c208c {
+  color: #4c208c; }
+
+/*重庆时时彩*/
+.cqssc_num01 {
+  color: #FF0000; }
+
+.cqssc_num02 {
+  color: #5200FF; }
+
+.cqssc_num03 {
+  color: #760000; }
+
+.cqssc_num04 {
+  color: #2D92C2; }
+
+.cqssc_num05 {
+  color: #008000; }
+
+.cqssc_num06 {
+  color: #6F8A97; }
+
+/*广东快乐十分*/
+.gdklsf_num01 {
+  color: #FF0000; }
+
+.gdklsf_num02 {
+  color: #5200FF; }
+
+.gdklsf_num03 {
+  color: #760000; }
+
+.gdklsf_num04 {
+  color: #2D92C2; }
+
+.gdklsf_num05 {
+  color: #008000; }
+
+.gdklsf_num06 {
+  color: #DB760F; }
+
+.gdklsf_num07 {
+  color: #A76A2A; }
+
+.gdklsf_num08 {
+  color: #4C208C; }
+
+.gdklsf_num09 {
+  color: #6F8A97; }
+
+/*上海时时乐*/
+.shssl_num01 {
+  color: #FF0000; }
+
+.shssl_num02 {
+  color: #5200FF; }
+
+.shssl_num03 {
+  color: #760000; }
+.shssl_num04 {
+   color:#6F8A97; }
+
+/*数字彩*/
+.fc3d_num01 {
+    color: #FF0000;
+}
+.fc3d_num02 {
+    color: #5200FF;
+}
+.fc3d_num03 {
+    color: #760000;
+}
+.fc3d_num04 {
+    color: #6F8A97;
+}
+
+.ln_cqsscBg {
+  background-size: 21px; }
+
+/*各个彩种*/
+.diceNumber {
+  display: inline-block;
+  font-size: 0px; }
+  .diceNumber i {
+    display: inline-block;
+    margin: 0 6px;
+    width: 14px;
+    height: 14px;
+    background-size: 14px; }
+    .diceNumber i.num01 {
+      background-position: 0 0; }
+    .diceNumber i.num02 {
+      background-position: 0 -14px; }
+    .diceNumber i.num03 {
+      background-position: 0 -28px; }
+    .diceNumber i.num04 {
+      background-position: 0 -42px; }
+    .diceNumber i.num05 {
+      background-position: 0 -56px; }
+    .diceNumber i.num06 {
+      background-position: 0 -70px; }
+
+.lotteryNumber_kl8 {
+  display: block;
+  width: 100%;
+  padding-bottom: 5px; 
+ 
+}
+  .lotteryNumber_kl8 .ln_kl8_li {
+    width: 100%;
+  
+    display: -webkit-box;
+    display: -o-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: box;
+    display: -webkit-flexbox;
+    display: -o-flexbox;
+    display: -moz-flexbox;
+    display: -ms-flexbox;
+    display: flexbox;
+    display: -webkit-flex;
+    display: -o-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -o-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-box-pack: justify;
+    box-pack: justify;
+    -webkit-flex-pack: justify;
+    -o-flex-pack: justify;
+    -moz-flex-pack: justify;
+    -ms-flex-pack: justify;
+    flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -o-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+   
+    padding-top: 5px; 
+    clear: both;
+    overflow: hidden;
+    display: block;
+  }
+  .lotteryNumber_kl8 span.default {
+    display:block;
+    width: 10%;
+    float: left;
+    text-align: center;
+    flex: 1;
+     -webkit-box-flex: 1;
+  -o-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  box-flex: 1;
+
+  -wekit-flex:1;
+  -o-flex:1;
+  -moz-flex:1;
+  -ms-flex:1;
+     }
+.lotteryNumber_shssl {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  font-size: 0px; }
+  .lotteryNumber_shssl i {
+    display: inline-block;
+    width: 33%;
+    font-size: 14px;
+    font-weight: bold; }
+
+.lotteryNumber_cqssc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  font-size: 0px; }
+  .lotteryNumber_cqssc i {
+    display: inline-block;
+    width: 20%;
+    font-size: 14px;
+    font-weight: bold; }
+
+.lotteryNumber_pk10 {
+  display: -webkit-box;
+  display: -o-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  display: -webkit-flexbox;
+  display: -o-flexbox;
+  display: -moz-flexbox;
+  display: -ms-flexbox;
+  display: flexbox;
+  display: -webkit-flex;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -o-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+  -webkit-flex-pack: center;
+  -o-flex-pack: center;
+  -moz-flex-pack: center;
+  -ms-flex-pack: center;
+  flex-pack: center;
+  -webkit-justify-content: center;
+  -o-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center; }
+  .lotteryNumber_pk10 span {
+    display: block;
+    width: 10%;
+    text-align: center;
+    font-size: 0px; }
+  .lotteryNumber_pk10 i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 13px;
+    color: #666; }
+    .lotteryNumber_pk10 i.num01 {
+      background-size: 16px;
+      background-position: 0 0; }
+    .lotteryNumber_pk10 i.num02 {
+      background-size: 16px;
+      background-position: 0 -16px; }
+    .lotteryNumber_pk10 i.num03 {
+      background-size: 16px;
+      background-position: 0 -32px; }
+    .lotteryNumber_pk10 i.num04 {
+      background-size: 16px;
+      background-position: 0 -48px; }
+    .lotteryNumber_pk10 i.num05 {
+      background-size: 16px;
+      background-position: 0 -64px; }
+    .lotteryNumber_pk10 i.num06 {
+      background-size: 16px;
+      background-position: 0 -80px; }
+    .lotteryNumber_pk10 i.num07 {
+      background-size: 16px;
+      background-position: 0 -96px; }
+    .lotteryNumber_pk10 i.num08 {
+      background-size: 16px;
+      background-position: 0 -112px; }
+    .lotteryNumber_pk10 i.num09 {
+      background-size: 16px;
+      background-position: 0 -128px; }
+    .lotteryNumber_pk10 i.num10 {
+      background-size: 16px;
+      background-position: 0 -144px; }
+
+.lotteryNumber_pk10Number {
+  white-space: nowrap;
+  /*是禁止换行；*/
+  width: 100%;
+  display: -webkit-box;
+  display: -o-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  display: -webkit-flexbox;
+  display: -o-flexbox;
+  display: -moz-flexbox;
+  display: -ms-flexbox;
+  display: flexbox;
+  display: -webkit-flex;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -o-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+  -webkit-flex-pack: center;
+  -o-flex-pack: center;
+  -moz-flex-pack: center;
+  -ms-flex-pack: center;
+  flex-pack: center;
+  -webkit-justify-content: center;
+  -o-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  font-size: 0px;
+  padding-top: 3px; }
+  .lotteryNumber_pk10Number span {
+    display: block;
+    font-size: 0px;
+    width: 10%;
+    text-align: center; vertical-align:middle; }
+  .lotteryNumber_pk10Number i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 9px;
+    color: #666; }
+    .lotteryNumber_pk10Number i.blueBg {
+      color: #fff;
+      background: #2850a0;
+      border-radius: 2px; }
+    .lotteryNumber_pk10Number i.orangeBg {
+      color: #fff;
+      background: #ff6600;
+      border-radius: 2px; }
+
+.csj_explain {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+  margin-left: 4px;
+  font-size: 0px;
+  cursor: pointer; }
+  .csj_explain:active {
+    background-position: 0 -16px; }
+
+.hkj_tool {
+  background: #f6f6f6;
+  margin-bottom: 10px; }
+  .hkj_tool .tool_block:first-child {
+    border-top: 0;
+    padding: 0px 10px 0px;
+     }
+  .hkj_tool .tool_block {
+      padding: 6px 10px 0px;
+    border-top: 1px solid #dedede;
+     }
+  .hkj_tool .tool_title {
+    padding-bottom: 2px;
+    line-height: 34px; }
+    .hkj_tool .tool_title span {
+      float: left;
+      font-size: 15px;
+      color: #333; }
+    .hkj_tool .tool_title a {
+      display: block;
+    float: right;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    background-size: 16px;
+    padding-left: 20px;}
+      .hkj_tool .tool_title a:hover {
+        text-decoration: none; }
+       .hkj_tool .tool_title a:link {
+              color:#333 !important;
+            }
+        .hkj_tool .tool_title a:active {
+        color: #ffac00;
+        text-decoration: none; }
+
+.hkj_tool   .tool_ul{
+          width: 100%;
+          clear: both;
+          overflow: hidden;
+        }
+     
+  .hkj_tool .tool_li {
+    width: 21.5%;
+    padding-bottom: 7px;
+    float: left;
+    text-align: center;
+  }
+
+.hkj_tool .tool_li:nth-child(5n+1) {
+   text-align: left;
+   width: 17.5%;
+}
+
+.hkj_tool .tool_li:nth-child(5n) {
+   text-align: right;
+   width: 17.5%;
+}
+
+    .hkj_tool .tool_li span {
+      display: inline-block;
+      width: 50px;
+      height: 25px;
+      border: 1px solid #c7c7c7;
+      background: #fff;
+      text-align: center;
+      line-height: 25px;
+      font-size: 19px;
+      border-radius: 3px;
+      padding-top: 0px;
+      box-sizing: border-box; }
+      .hkj_tool .tool_li span.hover {
+        background-size: 12.5px;
+        border: 1px solid #ffac00; }
+      .hkj_tool .tool_li span.nullBtn {
+        border: 1px solid #f6f6f6;
+        background: #f6f6f6; }
+        .hkj_tool .tool_li b{
+        text-align: right!important;
+    display: block;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 15px;
+    padding-top: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    color: #333;
+}
+
+.hkj_toolHide{
+   display: none !important;
+}
+
+  .hkj_tool .tool_fadeToggle {
+    font-size: 0px;
+    text-align: center;
+    border-bottom: 1px solid #dedede; }
+    .hkj_tool .tool_fadeToggle a {
+      display: inline-block;
+      width: 39px;
+      height: 14px;
+      background-size: 39px; }
+      .hkj_tool .tool_fadeToggle a.fadeOut {
+        background-position: 0 -14px; }
+
+/**************************免费参考(start)********************************/
+.csj_referenceBlock {
+  top: 47px;
+  /*北京赛车PK10、幸运飞艇、重庆时时彩、新疆时时彩、天津时时彩、圣地彩、上海时时乐*/
+  /*广东快乐十分、幸运农场*/
+  /*江苏骰宝快3*/
+  /*快乐8*/ }
+  .csj_referenceBlock .rb_table {
+    padding-top: 20px; }
+    .csj_referenceBlock .rb_table table {
+      width: 100%; }
+    .csj_referenceBlock .rb_table td {
+      height: 30px;
+      vertical-align: middle;
+      padding: 0 2px;
+      text-align: left;
+      font-size: 13px;
+      border: 1px solid #dbdbdb;
+
+    }
+        .csj_referenceBlock .rb_table td span {
+            font-size: 13px;
+        }
+      .csj_referenceBlock .rb_table td.tableTitle {
+        height: 27px;
+        font-size: 13px; }
+      .csj_referenceBlock .rb_table td.textAlignCenter {
+        text-align: center; }
+    .csj_referenceBlock .rb_table .tdBgColorF6 {
+      background: #f6f6f6; }
+    .csj_referenceBlock .rb_table .tdFontRed {
+      color: #ed1c24; }
+  .csj_referenceBlock .lotteryNumber_pk10 {
+    padding-left: 48px;
+    font-size: 12px; }
+  .csj_referenceBlock .lotteryNumber_gdkl10 {
+    padding-left: 27px;
+    font-size: 13px; }
+  .csj_referenceBlock .lotteryNumber_jsk3 {
+    padding-left: 4px;
+    display: inline-block; }
+    .csj_referenceBlock .lotteryNumber_jsk3.diceNumber i {
+      margin: 0 4px; }
+  .csj_referenceBlock .rb_kl8Table td {
+    position: relative;
+    padding: 0 5px; }
+    .csj_referenceBlock .rb_kl8Table td.tableTitle {
+      height: 30px;
+      white-space: normal; }
+  .csj_referenceBlock .rb_kl8Table b {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    display: block;
+    font-weight: normal; }
+  .csj_referenceBlock .rb_kl8Table .lotteryNumber_kl8 {
+    padding-left: 65px;
+    line-height: 14px;
+    box-sizing: border-box; }
+
+/**************************免费参考(end)********************************/
+/**************************历史开奖(start)********************************/
+.csj_historyKaiJiang {
+  /*北京赛车PK10、幸运飞艇*/
+  /*重庆时时彩、新疆时时彩、天津时时彩、圣地彩、上海时时乐*/
+  /*广东快乐十分、幸运农场*/
+  /*江苏骰宝快3*/
+  /*快乐8*/ }
+  .csj_historyKaiJiang .hkj_table table {
+    width: 100%;
+    text-align: center; }
+  .csj_historyKaiJiang .hkj_table th {
+    height: 34px;
+    vertical-align: middle;
+    font-size: 14px;
+    border: 1px solid #dbdbdb; }
+  .csj_historyKaiJiang .hkj_table td {
+    height:25px;
+    vertical-align: middle;
+    font-size: 13px;
+    box-sizing:border-box;
+    border: 1px solid #dbdbdb; }
+  .csj_historyKaiJiang .hkj_table .tdBgColorF6 {
+    background: #f6f6f6; }
+  .csj_historyKaiJiang .hkj_table .tdFontRed {
+    color: #ed1c24; }
+  .csj_historyKaiJiang .hkj_pk10Table .pk10_btnBlock {
+    white-space: nowrap;
+    /*是禁止换行；*/
+    font-size: 0px; }
+    .csj_historyKaiJiang .hkj_pk10Table .pk10_btnBlock span {
+      display: inline-block;
+      width: 25%;
+      text-align: center;
+      font-size: 0;
+      box-sizing: border-box; }
+    .csj_historyKaiJiang .hkj_pk10Table .pk10_btnBlock i {
+      display: inline-block;
+      width: 40px;
+      height: 24px;
+      text-align: center;
+      line-height: 24px;
+      font-size: 14px;
+      font-weight: 100;
+      background: #999;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 2px; }
+      .csj_historyKaiJiang .hkj_pk10Table .pk10_btnBlock i:hover {
+        color: #fff;
+        text-decoration: none; }
+      .csj_historyKaiJiang .hkj_pk10Table .pk10_btnBlock i.hover {
+        background: #ed1c24; }
+  .csj_historyKaiJiang .hkj_cqsscTable .lotteryNumber_cqssc i {
+    line-height: 25px; }
+  .csj_historyKaiJiang .hkj_xyncTable .lotteryNumber_cqssc i {
+    width: 12.5%;
+    line-height: 24px;
+    padding-top: 2px;
+    box-sizing: border-box; }
+  .csj_historyKaiJiang .hkj_kl8Table td {
+    height: 40px; }
+  .csj_historyKaiJiang .hkj_kl8Table .lotteryNumber_kl8 .ln_kl8_li {
+    line-height: 17px; }
+
+/**************************历史开奖(end)********************************/
+/**************************专题列表(start)********************************/
+/**************************专题列表(end)********************************/
+/**************************专题详情(start)********************************/
+/**************************专题详情(end)********************************/
+/**************************精选应用(start)********************************/
+/**************************精选应用(end)********************************/
+/**************************搜索(start)********************************/
+/**************************搜索(end)********************************/
+/**************************客户端下载(start)********************************/
+/**************************客户端下载(end)********************************/
+/*................................................................公共颜色....................................*/
+.publicColor_red {
+  color: #ed1c24; }
+
+.publicColor_blue {
+  color: #1c26ed; }
+
+.publicColor_green {
+  color: #4b8000; }
+
+.publicColor_navyBlue {
+  color: #0000ff; }
+
+.nu_td01 {
+  background: #f5f5f5; }
+
+.nu_td02 {
+  background: #fcfcfc; }
+
+/*.....................................公共样式开始........................................................*/
+/*.....................................公共样式结束.........................................................*/
+/**************************北京赛车-单双大小路珠(start)********************************/
+.csj_lotteryKindDewdrop {
+  top: 67px; }
+
+.csj_CumulativeToday {
+  border-top: 1px solid #d1d1d1; }
+
+.csj_Cumulative {
+  width: 100%; }
+  .csj_Cumulative .cum_font {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    text-align: center; }
+  .csj_Cumulative table td {
+    width: 22px;
+    vertical-align: top;
+    padding: 3px 0 5px;
+    border: 1px solid #d1d1d1; 
+    font-size:12px;
+  }
+    .csj_Cumulative table td i {
+      display: block;
+      line-height: 15px;
+      text-align: center;
+      font-size: 13px;
+      width: 22px; }
+    .csj_Cumulative table td:first-child {
+      border-left: 0px; }
+    .csj_Cumulative table td:last-child {
+      border-right: 0px; }
+  .csj_Cumulative table .cum_big {
+    background: #f1f1f1; }
+
+.cum_explain {
+  line-height: 14px;
+  border-bottom: 1px solid #d1d1d1;
+  background: #fffbe3;
+  padding: 4px 10px 4px 8px; }
+  .cum_explain span {
+    display: block;
+    background-size: 13px;
+    font-size: 9px;
+    text-align: left;
+    padding-left: 15px; }
+
+/**************************北京赛车-单双大小路珠(end)********************************/
+/*.....................................北京赛车-今日号码统计开始........................................................*/
+.csj_lotteryPeriod_news {
+  position: fixed;
+  z-index: 99;
+  background: none;
+  width: auto;
+  right: 30px;
+  top: 38px; }
+
+.csj_LotteryNumbers {
+  width: 100%; }
+  .csj_LotteryNumbers .csj_Numbers {
+    width: 100%; }
+    .csj_LotteryNumbers .csj_Numbers table {
+      text-align: center; }
+      .csj_LotteryNumbers .csj_Numbers table td {
+        height: 23px;
+        border: 1px solid #e3e3e3;
+        font-size: 13px;
+        vertical-align: middle;
+        line-height: 23px;
+        width: 47px; }
+        .csj_LotteryNumbers .csj_Numbers table td i {
+          width: 57px; }
+      .csj_LotteryNumbers .csj_Numbers table .nu_td03 {
+        font-size: 13px; }
+        .csj_LotteryNumbers .csj_Numbers table .nu_td03 i {
+          width: 74px; }
+        .csj_LotteryNumbers .csj_Numbers table .nu_td03 span {
+          display: inline-block;
+          width: 100%;
+          height: 23px;
+          line-height: 23px;
+          padding-top: 2px;
+          box-sizing: border-box;
+          background-size: 18px; }
+      .csj_LotteryNumbers .csj_Numbers table .csj_AlwaysOpen {
+        width: auto;
+        height: auto;
+        font-size: 0px;
+        line-height: 0px; 
+        background-color:#fff;
+      }
+        .csj_LotteryNumbers .csj_Numbers table .csj_AlwaysOpen .csj_AlwaysOpenSpan {
+          width: 92px;
+          display: block; }
+        .csj_LotteryNumbers .csj_Numbers table .csj_AlwaysOpen i {
+          display: inline-block;
+          width: 46px;
+          height: 23px;
+          line-height: 23px;
+          text-align: center;
+          font-size: 13px;
+          float: left; }
+        .csj_LotteryNumbers .csj_Numbers table .csj_AlwaysOpen i:first-child {
+          border-right: 1px solid #e3e3e3;
+          box-sizing: border-box; }
+
+.cum_position {
+  position: fixed;
+  left: 0px;
+  top: 67px;
+  width: 47px; }
+  .cum_position:last-child {
+    border-bottom: 0px; }
+
+.cun_numtr {
+  height: 47px;
+  line-height: 47px; }
+
+/**************************长龙统计(start)********************************/
+.csj_changLongStatistics {
+  top: 112px; }
+
+.csj_tabNavBar {
+  width: 100%;
+  height: 29px;
+  border-bottom: 1px solid #e3e3e3;
+  background-color: #f6f6f6;
+  padding: 0 10px;
+  box-sizing: border-box; }
+  .csj_tabNavBar span {
+    display: block;
+    height: 29px;
+    line-height: 29px;
+    padding: 0 3px;
+    float: left; }
+  .csj_tabNavBar .esj_rightSound {
+    float: right;
+    width: 50px;
+    background-size: 19px;
+    padding-right: 24px; }
+    .csj_tabNavBar .esj_rightSound.closeSound {
+      background-size: 19px; }
+
+.csj_zlTapBlock {
+  width: 100%;
+  padding: 8px 10px;
+  box-sizing: border-box; }
+  .csj_zlTapBlock .csj_tabNavList {
+    width: 100%;
+    border: 1px solid #ed1c24;
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 0px; }
+    .csj_zlTapBlock .csj_tabNavList span {
+      width: 50%;
+      display: inline-block;
+      font-size: 15px;
+      text-align: center;
+      height: 29px;
+      line-height: 29px;
+      box-sizing: border-box;
+      color: #ed1c24; }
+      .csj_zlTapBlock .csj_tabNavList span.hover {
+        color: #fff;
+        background-color: #ed1c24; }
+
+.csj_table12 {
+  width: 100%; }
+  .csj_table12 .csj_table {
+    width: 100%; }
+    .csj_table12 .csj_table td {
+      height: 25px;
+      border: 1px solid #e3e3e3;
+      text-align: center;
+      vertical-align: middle;
+      background-color: #f6f6f6;
+      font-size: 12px; }
+    .csj_table12 .csj_table tr.title td {
+      height: 34px;
+      background-color: #f6f6f6;
+      font-size: 13px; }
+    .csj_table12 .csj_table tr:nth-child(2n) td {
+      background-color: #fff;
+      text-align: center; }
+
+.csj_moreButton {
+  padding-right: 10px;
+  background-size: 5px;
+  color: #333333; }
+
+/*提示弹窗框-参数设置*/
+.csj_sjConS {
+  width: 100%;
+  font-size: 12px;
+  line-height: 22px; }
+  .csj_sjConS span.csj_stips {
+    background-position: left 5px;
+    padding-bottom: 10px;
+    line-height: 22px; }
+  .csj_sjConS .csj_lisSpan {
+    width: 100%;
+    display: block;
+    padding-bottom: 10px; }
+    .csj_sjConS .csj_lisSpan .paddingTops {
+      padding-top: 1px;
+      padding-right: 4px; }
+    .csj_sjConS .csj_lisSpan .paddingTopspan {
+      padding-top: 1px;
+      padding-right: 4px;
+      padding-left: 4px; }
+    .csj_sjConS .csj_lisSpan input {
+      width: 40px;
+      height: 18px;
+      border: 1px solid #e3e3e3;
+      border-radius: 2px;
+      text-align: center;
+      padding: 0; }
+  .csj_sjConS .csj_redBlock {
+    width: 9px;
+    height: 17px;
+    display: inline-block;
+    background-color: #ff0000;
+    margin-top: 3px; }
+  .csj_sjConS .csj_blueBlock {
+    width: 9px;
+    height: 17px;
+    display: inline-block;
+    background-color: #0000ff;
+    margin-top: 3px; }
+  .csj_sjConS .csj_greenBlock {
+    width: 9px;
+    height: 17px;
+    display: inline-block;
+    background-color: #008000;
+    margin-top: 3px; }
+
+.cum_scroll {
+  width: auto;
+  overflow-x: scroll; }
+
+.cum_content {
+  width: 100%;
+  overflow: hidden; }
+
+.csj_table2 td .csj_spanPlanData span {
+  width: auto;
+  display: inline; }
+
+.csj_table2 td.csj_spanPlanData span {
+  width: auto;
+  display: inline; }
+
+.csj_sjConS .msg_redBlock {
+  color: #ff0000; }
+
+.csj_table04 .number_awarting span {
+  display: inline;
+  margin-right: 0px;
+  margin-left: 0px; }
+
+.csj_table04 .number_awarting i {
+  margin-right: 4px; }
+
+.csj_mesh {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 99; }
+
+#wrapper {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  margin: 0;
+  top: 0px;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  overflow: hidden; }
+
+#scroller {
+  position: absolute;
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+  background: #fff; }
+
+
+#scroller-pullDown {
+  height: 40px;
+  line-height: 40px;
+  /* padding: 5px 10px;
+   border-bottom: 1px solid #ccc;*/
+  font-weight: bold;
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  width: 100%; }
+
+#scroller-pullDown {
+  top: -40px;
+  color: #000; }
+
+#scroller-pullDown .pull-up-msg {
+  padding-left: 20px; }
+
+#scroller-pullUp {
+  left: 0px;
+  bottom: -40px;
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+  color: #00a7eb;
+  background-color: #fff; }
+
+#scroller-pullUp i {
+  background: url("../images/app_downIcon.png") no-repeat left 14px;
+  background-size: 12px;
+  padding-left: 17px; }
+
+#scroller-pullDown .down-icon {
+  display: inline-block;
+  font-size: 1.4;
+  -webkit-transform: rotate(0deg);
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 500ms;
+  background: url("../images/loading-page.svg") no-repeat 0px 16px;
+  background-size: 15px;
+  width: 20px;
+  height: 30px; }
+
+
+
+
+.csj_lotteryKindDewdrop .todayStat_left {
+    width:75px;position:absolute;left:0px;top:0px;z-index:99;
+}
+.csj_lotteryKindDewdrop .todayStat_left_scroll 
+{
+    left: 0px;top:0px;position:inherit
+}
+.csj_lotteryKindDewdrop .todayStat_right {
+    width:100%;box-sizing:border-box;padding-left:74px;
+}
+.csj_lotteryKindDewdrop .todayStat_right_scroll {
+   width:100%; overflow-x: scroll;overflow-y: hidden; padding-left:0px;
+}
+/*# sourceMappingURL=style.css.map */
+/*路珠最新一期*/
+.csj_Cumulative table td i.new{
+        font-weight:bold;
+        font-size: 12px
+  }
+.csj_jhFontSpan span {
+    display:inline;
+}
+.csj_footer .csj_footer_link a:visited, .csj_footer .csj_footer_link a:link {
+    color:#555!important;
+}
+.csj_footer .csj_footer_link a.nolink{
+  color:#999!important;
+  text-decoration: none;
+}
+
+
+.wrapperBody {
+    width: 100%;
+    box-sizing:border-box;
+}
+#wrapperWin {
+  width: 100%;
+  padding: 0px;
+  left:0px;
+  top:0px;
+  box-sizing:border-box;
+  height:220px;
+  overflow:hidden;
+  position:relative;
+}
+
+#scrollerWin {
+  z-index: 1;
+  position:absolute;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+  background: #fff; }
+
+
+
+.csj_helpConS2 span {
+  background: url("../images/csj_point.png") no-repeat }
+
+.csj_helpConS2 {
+  width: 100%;
+  padding: 10px 10px 0 10px;
+    box-sizing: border-box;
+    line-height:22px;
+ }
+  .csj_helpConS2 span {
+    text-indent: 12px;
+    background-position: left 8px;
+    padding-bottom: 10px; }
+
+
+  
+.ui-actionsheet {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -webkit-box-align: end;
+  background: rgba(0, 0, 0, 0.4); 
+}
+  .ui-actionsheet.show {
+    pointer-events: inherit;
+    opacity: 1; }
+    .ui-actionsheet.show .ui-actionsheet-cnt {
+      -webkit-transform: translateY(0);
+      -webkit-transition-delay: 0.3s; }
+
+.ui-actionsheet-cnt {
+  font-size: 21px;
+  position: fixed;
+  bottom: 0;
+  padding: 0 8px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  -webkit-transform: translateY(100%);
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.3s; }
+
+.ui-actionsheet button, .ui-actionsheet h4 {
+  background: rgba(255, 255, 255, 0.84);
+  display: block;
+  width: 100%;
+  color: #0079ff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.ui-actionsheet button {
+  line-height: 44px;
+  height: 44px; 
+  font-size: 16px;
+}
+
+.ui-actionsheet h4 {
+  line-height: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px; }
+
+.ui-actionsheet button:not(:last-child) {
+  border-top: 1px #e0e0e0 solid; }
+
+.ui-actionsheet button:last-child {
+  margin: 8px 0;
+  border-radius: 3px; }
+
+.ui-actionsheet button:nth-last-child(2) {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px; }
+
+.ui-actionsheet button:active {
+  opacity: 0.84; }
+
+.ui-actionsheet h4 {
+  font-size: 13px;
+  color: #8a8a8a; }
+
+.ui-actionsheet .ui-actionsheet-del {
+  color: #fd472b; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .ui-actionsheet button:not(:last-child) {
+    border: 0;
+    background-position: left top;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, transparent), color-stop(0.5, #e0e0e0), to(#e0e0e0));
+    background-repeat: repeat-x;
+    -webkit-background-size: 100% 1px; } }
+
+  .csj_audio
+  {
+        width: 29px;
+    height: 29px;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    opacity: 0.5;
+    display: block;
+  }
+
+
+.bdsharebuttonbox{
+      width: 100%;
+      height: auto;
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      z-index: 99;
+      background-color: #fff;
+      padding: 10px 0;
+
+    }
+    .bdsharebuttonbox span{
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+        float: left;
+    }
+    .bdsharebuttonbox span a{
+      margin: 10px 0 10px 0;
+      float: none;
+      display: inline-block;
+      text-indent: 0em;
+    }
+    .bdsharebuttonbox i{
+        font-size: 12px;
+        font-style: normal;
+        color: #666;
+        width: 100%;
+        display: block;
+        white-space: nowrap;
+        text-overflow:ellipsis;
+        overflow: hidden;
+    }
+    .mesk{
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      background-color: #000;
+      opacity: 0.5;
+      z-index: 98;
+    }
+.csj_historyKaiJiang .paddingSpan {
+   padding-top:3px;
+}
+.csj_historyKaiJiang .paddingSpan2 i{
+    padding-top:2px;
+    display:inline-block;
+    vertical-align:middle;
+}
+.csj_historyKaiJiang .paddingSpan2 {
+   padding-top:1px;
+    vertical-align:middle;
+}
+
+
+
+
+@media screen  and (min-width: 320px) and (max-width: 345px) {
+    .csj_navList ul li a {
+        font-size: 12px;
+    }
+    .csj_iconList li.lis a .font{
+        font-size: 12px;
+        white-space: nowrap;
+          white-space: nowrap;
+   /*是禁止换行；*/
+  overflow: hidden;
+  /*多出的内容隐藏；*/
+  text-overflow: ellipsis;
+  /*多出的内容以省略号...来表达；主要用于IE等浏览器*/
+  -o-text-overflow: ellipsis;
+  /*支持chrome；*/ 
+    }
+}
+
+@media screen  and (min-width: 346px) and (max-width: 375px) {
+    .csj_navList ul li a {
+        font-size: 13px;
+    }
+    .csj_iconList li.lis a .font{
+        font-size: 13px;
+        white-space: nowrap;
+    }
+}
+
+
+@media screen and (min-width: 376px) {
+    .csj_navList ul li a {
+        font-size: 15px;
+    }
+    .csj_iconList li.lis a .font{
+        font-size: 15px;
+        white-space: nowrap;
+    }
+}
+
+/**************************公共-广告层(start)********************************/
+.csj_advertisementBlock {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  border-top: 1px solid #b3b3b3; }
+  .csj_advertisementBlock img {
+    width: 100%;
+    height: 100%; }
+  .csj_advertisementBlock a {
+    display: block; }
+
+/**************************公共-广告层(end)********************************/
+/**************************公共-视频(start)********************************/
+.csj_videoBlock {
+  width: 100%; }
+  .csj_videoBlock * {
+    width: 100%; }
+
+/**************************公共-视频(end)********************************/
+/**************************公共-温馨提示(start)********************************/
+.csj_tipsBlock {
+  padding: 10px 55px 10px 10px;
+    background-color: #f0f0f0;
+    line-height: 46px;
+    font-size: 11px;
+    color: #4c4c4c;
+    margin-bottom: 5px;
+    background-size: 13px;
+    background-position: 10px 5px;
+    text-indent: 0px;
+    position: relative;
+
+ }
+ .csj_tipsBlock .tips_close{
+  position: absolute;
+  top: 22px;
+    right: 10px;
+    display: block;
+    width: 30px;
+    height: 30px;
+  background: url("../images/csj_tips_close.png") no-repeat center center; 
+ }
+.csj_historyKaiJiang .hkj_table .tips_show{
+  position: absolute;
+  top: 18px;
+    left: 20px;
+    display: block;
+    width: 34px;
+    height: 34px;
+  background: url("../images/csj_tips_icon.png") no-repeat center center; 
+ }
+ /*************长龙广告********************/
+ .changlongContent_ad
+ {
+  position: fixed;
+  top: 160px;
+  bottom: 0px;
+  width: 100%;
+ }
+  /*************长龙无广告********************/
+  .changlongContent_noAd
+ {
+  position: fixed;
+  top: 110px;
+  bottom: 0px;
+  width: 100%;
+ }
+
+/**************************公共-温馨提示(end)********************************/

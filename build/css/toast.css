@@ -1,0 +1,78 @@
+.PopupWindowBodyHide{
+    text-align: center;
+    position: fixed;
+    bottom:-40px;
+    left: 0px;
+    width: 100%;
+    opacity: 0;
+    z-index: 999;
+}
+.PopupWindowBodyShow{
+    text-align: center;
+    position: fixed;
+    bottom:-40px;
+    left: 0px;
+    width: 100%;
+    opacity: 0;
+     z-index: 999;
+    animation: sisi 3s ease;
+    -webkit-animation:sisi 3s ease;
+    -moz-transform:sisi 3s ease;
+    -ms-transform:sisi 3s ease;
+    -o-transform:sisi 3s ease;
+}
+@keyframes sisi
+{
+    0% {bottom: -50px;opacity: 0;}
+    10% {bottom: 40px;opacity: 1;}
+    80%{bottom: 40px;opacity: 1;}
+    100%{bottom: 80px;opacity: 0;}
+}
+@-webkit-keyframes sisi
+{
+    0% {bottom: -50px;opacity: 0;}
+    10% {bottom: 40px;opacity: 1;}
+    80%{bottom: 40px;opacity: 1;}
+    100%{bottom: 80px;opacity: 0;}
+}
+@-moz-keyframes sisi
+{
+    0% {bottom: -50px;opacity: 0;}
+    10% {bottom: 40px;opacity: 1;}
+    80%{bottom: 40px;opacity: 1;}
+    100%{bottom: 80px;opacity: 0;}
+}
+@-ms-keyframes sisi
+{
+    0% {bottom: -50px;opacity: 0;}
+    10% {bottom: 40px;opacity: 1;}
+    80%{bottom: 40px;opacity: 1;}
+    100%{bottom: 80px;opacity: 0;}
+}
+@-o-keyframes sisi
+{
+    0% {bottom: -50px;opacity: 0;}
+    10% {bottom: 40px;opacity: 1;}
+    80%{bottom: 40px;opacity: 1;}
+    100%{bottom: 50px;opacity: 0;}
+}
+.PopupWindow{
+    display: inline-block;
+    background: #000;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.PW_win{
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.PopupWindow i{
+    width: 100%;
+    font-size:14px;
+    font-style: normal;
+    color: #fff;
+}
